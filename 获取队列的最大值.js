@@ -46,10 +46,11 @@ MaxQueue.prototype.pop_front = function() {
   return frontData
 };
 
-
+// dqueue是否为空
 MaxQueue.prototype.isDqueueEmpty = function() {
   return !(this.countD - this.headD)
 }
+// queue是否为空
 MaxQueue.prototype.isQueueEmpty = function() {
   return !(this.countQ - this.headQ)
 }
